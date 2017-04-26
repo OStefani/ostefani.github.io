@@ -1,0 +1,176 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Olga Stefanishina"/>
+        <title>Porfolio</title>
+        <link rel="stylesheet" href="styles/main-6cea9fe379.css"/>
+    </head>
+    <body onload="FtheHeight()" onresize="FtheHeight()" data-spy="scroll" data-target="#menu" data-offset="100">
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#headIm">Olga Stefanishina</a>
+                        <button class="navbar-toggle" data-toggle="collapse" type="button" data-target="#menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#about">ABOUT ME</a></li>
+                            <li><a href="#portf">PORTFOLIO</a></li>
+                            <li><a href="#contact">CONTACT ME</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            
+            <div class="container-fluid headIm" id="headIm">
+                    <!--<img class="img-responsive imInH" alt="a picture" src="images/100_1588.jpg">-->
+                <div class="circle">    
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 col-md-offset-1">
+                        <img id="header-im" src="images/my_picture.jpg" class="img-circle img-responsive"  alt="my photo here">
+                    </div>
+                    <div class="clearfix visible-sm visible-xs"></div>
+                    <div class='col-md-7'> 
+                       <h1 class="text-center header-style">Olga Stefanishyna <br> <span id="header">Web Developer</span></h1>
+                    </div>
+                </div>
+                
+                </div>
+        </header>
+        
+        <main class="container-fluid">
+            
+            <section id="about">
+                <h2 class="text-center">About me</h2>
+                        <p class="st">Hello, there! I am a self-taught web developer. I've always had interest in programming and decided to be devoted to web development.</p> 
+                        <p class="st">I have some experience with MEAN stack. In addition I have basic knowledge of Python. My biggest passion however is CSS. I am proficient in HTML5, CSS3, JS and Bootstrap. I love neat, simple user interfaces and I love to implement it in my work.</p>
+                        <p class="st"> Though I am excited to use these technologies, I tend to learn more, get more experience and improve my knowledge in JavaScript.</p>
+<!--Hello, there! I am a self taught web developer. I have some experience with MongoDB, Express.js, AngularJS, Node.js. In addition I have basic knowledge of Python.
+
+My biggest passion however is CSS. I am proficient in HTML5, CSS3, JS and Bootstrap. I love neat, simple user interfaces and I love to implement it in my work. Though I excited to use these technologies, I tend to learn more, get more experience and improve my knowledge in JavaScript.
+
+And I currently look forward to beginning work on real projects.-->
+            </section>
+            
+            <section id="portf">
+                <h2 class="text-center">Portfolio</h2>
+                <div class="row">
+                    
+                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                        <figure>
+                               <div class="hover">
+                                <a href="https://codepen.io/OStefani/full/vXbwBm/" class="alink" target="_blank">
+                                    <img class="myItem img-responsive" src="https://goo.gl/DxWMKE" alt = "a pic" id='height'/>
+                                    <div class="slider">
+                                        <p id="label">See more</p>
+                                        <i class="fa fa-eye faStyle fa-5x" aria-hidden="true"></i>
+                                    </div>
+                                </a>
+                                
+                            </div> 
+                            <figcaption class='text-center'>
+                                <h3>Tribute page</h3>
+                                <p>I made it as a task for Free Code Cumpus</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Clear floats (with the .clearfix class) at specific breakpoints to prevent strange wrapping with uneven content-->
+                    <!--override offsets from lower grid tiers with .col-*-offset-0 classes-->
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                        <figure>
+                            <div class="boxCont">
+                                <div class="line_1"><div class = "line_2"></div></div>
+                            </div>
+                        <figcaption class='text-center'>
+                                <h3>To be done</h3>
+                                <p>I will fill the gaps some time later.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                        <figure>
+                            <div class="boxCont">
+                                <div class="line_1"><div class = "line_2"></div></div>
+                            </div>
+                            <figcaption class='text-center'>
+                                <h3>To be done</h3>
+                                <p>I will fill the gaps later</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="contact">
+                <h2 class="text-center">Contact me</h2>
+                <p>If you are looking to create a new site or you are looking for a partner we can have a short conversation to see what I could offer you. Feel free to <a class = "mailto" href="mailto:ostefanishina@gmail.com">contact me</a>.</p>
+                <p>Or fill the form below.</p>
+   
+                <div class="row">
+                        <div class = 'col-sm-6 col-sm-offset-3'>
+                            <form >
+                                <div class="form-group">
+                                    <label class="sr-only">Your name</label><input type="text" placeholder='Enter your name'/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Your email</label><input type="text" placeholder="Enter your email"/>
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Your message"></textarea>
+                                </div> 
+                                    <button id="submit" type="button" onmouseover="subBut()" onmouseout="outBut()" >Send Message</button>
+                                    
+                                
+                                </form>
+                            <div id="aun"></div> 
+                        </div>
+                </div>
+               
+            </section>
+        </main>
+        
+            <!--<div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <ul class="list-inline pull-right">
+                            <li><a href="https://github.com/OStefani" target="_blank"><i class='fa fa-github icon'></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/102423569480307777146" target="_blank"><i class='fa fa-google icon'></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/olga-stefanishyna-490095b4/" target="_blank"><i class='fa fa-linkedin icon'></i></a></li>
+                            <li><a href="https://twitter.com/OStefanish" target="_blank"><i class="fa fa-twitter icon"></i></a></li>
+                            
+                        </ul>
+                            </div> 
+                    </div>
+                <p class="text-center">Created by Olga Stefanishyna &copy;</p>
+            </div>-->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-5 col-sm-6 col-sm-offset-4 col-xs-9 col-xs-offset-3">
+                        <ul class="list-inline">
+                            <li><a href="https://twitter.com/OStefanish"><i class='fa fa-twitter icon'></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/102423569480307777146" target="_blank"><i class='fa fa-google icon'></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/olga-stefanishyna-490095b4/" target="_blank"><i class='fa fa-linkedin icon'></i></a></li>
+                            <li><a href="https://github.com/OStefani" target="_blank"><i class='fa fa-github icon'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                        <p class="text-center">Created by <a class = "mailto" href="https://codepen.io/OStefani/" target="_blank"> Olga Stefanishyna</a> &copy;</p>
+                    </div>
+            </div>
+        </footer>
+        <script src="scripts/main-bdc974d71e.js"></script>
+    </body>
+</html>
