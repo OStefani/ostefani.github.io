@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="author" content="Olga Stefanishina"/>
         <title>Porfolio</title>
-        <link rel="stylesheet" href="styles/main-6cea9fe379.css"/>
+        <link rel="stylesheet" href="styles/main-05a4456ebb.css"/>
     </head>
     <body onload="FtheHeight()" onresize="FtheHeight()" data-spy="scroll" data-target="#menu" data-offset="100">
         <header>
@@ -69,7 +69,8 @@ And I currently look forward to beginning work on real projects.-->
                         <figure>
                                <div class="hover">
                                 <a href="https://codepen.io/OStefani/full/vXbwBm/" class="alink" target="_blank">
-                                    <img class="myItem img-responsive" src="https://goo.gl/DxWMKE" alt = "a pic" id='height'/>
+                                    <!--<img class="myItem img-responsive" src="https://goo.gl/DxWMKE" alt = "a pic" id='height'/>-->
+                                    <img class="myItem img-responsive" src="images/Ritchie.jpg" alt = "a pic" id='height'/>
                                     <div class="slider">
                                         <p id="label">See more</p>
                                         <i class="fa fa-eye faStyle fa-5x" aria-hidden="true"></i>
@@ -119,17 +120,17 @@ And I currently look forward to beginning work on real projects.-->
    
                 <div class="row">
                         <div class = 'col-sm-6 col-sm-offset-3'>
-                            <form >
+                            <form action = '/' id="myForm" method="post">
                                 <div class="form-group">
-                                    <label class="sr-only">Your name</label><input type="text" placeholder='Enter your name'/>
+                                    <label class="sr-only">Your name</label><input type="text" name='userName' id="usN" placeholder='Enter your name'/>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only">Your email</label><input type="text" placeholder="Enter your email"/>
+                                    <label class="sr-only">Your email</label><input type="text" name="userMail" placeholder="Enter your email"/>
                                 </div>
                                 <div class="form-group">
-                                    <textarea placeholder="Your message"></textarea>
+                                    <textarea placeholder="Your message" name="userText"></textarea>
                                 </div> 
-                                    <button id="submit" type="button" onmouseover="subBut()" onmouseout="outBut()" >Send Message</button>
+                                    <button id="btnsubmit" type="button" onclick = 'resetMyForm()' onmouseover="subBut()" onmouseout="outBut()">Send Message</button>
                                     
                                 
                                 </form>
@@ -140,22 +141,19 @@ And I currently look forward to beginning work on real projects.-->
             </section>
         </main>
         
-            <!--<div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                        <ul class="list-inline pull-right">
+        <footer class="container-fluid">
+                  
+                        <ul class="list-inline text-center">
                             <li><a href="https://github.com/OStefani" target="_blank"><i class='fa fa-github icon'></i></a></li>
                             <li><a href="https://plus.google.com/u/0/102423569480307777146" target="_blank"><i class='fa fa-google icon'></i></a></li>
                             <li><a href="https://www.linkedin.com/in/olga-stefanishyna-490095b4/" target="_blank"><i class='fa fa-linkedin icon'></i></a></li>
                             <li><a href="https://twitter.com/OStefanish" target="_blank"><i class="fa fa-twitter icon"></i></a></li>
                             
                         </ul>
-                            </div> 
-                    </div>
+                
                 <p class="text-center">Created by Olga Stefanishyna &copy;</p>
-            </div>-->
-        <footer>
-            <div class="container-fluid">
+
+            <!--<div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-md-offset-5 col-sm-6 col-sm-offset-4 col-xs-9 col-xs-offset-3">
                         <ul class="list-inline">
@@ -169,8 +167,8 @@ And I currently look forward to beginning work on real projects.-->
                 <div class="col-md-12">
                         <p class="text-center">Created by <a class = "mailto" href="https://codepen.io/OStefani/" target="_blank"> Olga Stefanishyna</a> &copy;</p>
                     </div>
-            </div>
+            </div>-->
         </footer>
-        <script src="scripts/main-bdc974d71e.js"></script>
+       <script src="scripts/main-93b456400d.js"></script>
     </body>
 </html>
